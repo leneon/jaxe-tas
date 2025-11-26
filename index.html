@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAS - Temple de la Sécurité</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon"></div>
+                TAS
+            </a>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#action">En Action</a></li>
+                <li><a href="#equipements">Équipements</a></li>
+                <li><a href="#temoignages">Témoignages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue au Temple de la Sécurité</h1>
+            <p>Chez TAS, la sécurité n'est pas un simple mot : c'est une mission, un engagement, une expertise.</p>
+            
+            <div class="hero-features">
+                <div class="feature-item">
+                    <span class="check-icon">✓</span>
+                    <span>Une équipe expérimentée, formée par des professionnels certifiés</span>
+                </div>
+                <div class="feature-item">
+                    <span class="check-icon">✓</span>
+                    <span>Des rondes, patrouilles et inspections régulières</span>
+                </div>
+                <div class="feature-item">
+                    <span class="check-icon">✓</span>
+                    <span>Une réaction immédiate en cas d'incident</span>
+                </div>
+                <div class="feature-item">
+                    <span class="check-icon">✓</span>
+                    <span>Des équipements de pointe pour une sécurité fiable à 100%</span>
+                </div>
+            </div>
+
+            <div class="hero-highlight">
+                👉 Prévenir vaut mieux que guérir. Choisissez la sécurité. Choisissez TAS.
+            </div>
+
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Prendre RDV avec notre équipe</a>
+                <a href="#agents" class="btn btn-secondary">Voir nos profils d'agents</a>
+            </div>
+        </div>
+
+        <div class="hero-3d">
+            <div class="sphere-container">
+                <div class="sphere"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" onclick="document.getElementById('action').scrollIntoView({behavior: 'smooth'})">
+            <span>↓</span>
+            <span style="font-size: 0.9rem;">Découvrir</span>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="action" class="video-section">
+        <h2 class="section-title">TAS en Action</h2>
+        <div class="video-container">
+            <div class="play-button"></div>
+            <p class="video-text">Une immersion dans le quotidien de nos agents : vigilance, discipline et protection.</p>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <button class="btn btn-primary">Regarder la vidéo complète</button>
+        </div>
+    </section>
+
+    <!-- Equipment Section -->
+    <section id="equipements">
+        <h2 class="section-title">Découvrez nos équipements de sécurité</h2>
+        <p class="section-subtitle">TAS vous propose une large gamme d'équipements professionnels : caméras, alarmes, radios, détecteurs, systèmes de contrôle d'accès, équipements incendie, etc.</p>
+        
+        <div class="equipment-grid">
+            <div class="equipment-card">
+                <div class="equipment-badge">Vidéosurveillance</div>
+                <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&h=600&fit=crop" alt="Caméras de Surveillance" class="equipment-image">
+                <div class="equipment-content">
+                    <h3>Caméras de Surveillance</h3>
+                    <p>Système de vidéosurveillance haute définition 4K avec vision nocturne et détection de mouvement intelligente.</p>
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-badge">Vidéosurveillance</div>
+                <img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=600&fit=crop" alt="Caméras Dôme" class="equipment-image">
+                <div class="equipment-content">
+                    <h3>Caméras Dôme</h3>
+                    <p>Caméras dôme professionnelles avec rotation 360° et zoom optique, idéales pour la surveillance d'espaces larges.</p>
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-badge">Alarmes</div>
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Systèmes d'Alarme" class="equipment-image">
+                <div class="equipment-content">
+                    <h3>Systèmes d'Alarme Connectés</h3>
+                    <p>Systèmes d'alarme intelligents avec contrôle à distance via application mobile et notifications instantanées.</p>
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-badge">Contrôle d'Accès</div>
+                <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&h=600&fit=crop" alt="Panneau de Contrôle" class="equipment-image">
+                <div class="equipment-content">
+                    <h3>Panneau de Contrôle</h3>
+                    <p>Interface de contrôle centralisée pour gérer tous vos systèmes de sécurité depuis un seul point.</p>
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-badge">Détection</div>
+                <img src="https://images.unsplash.com/photo-1593642532400-2682810df593?w=800&h=600&fit=crop" alt="Détecteurs de Mouvement" class="equipment-image">
+                <div class="equipment-content">
+                    <h3>Détecteurs de Mouvement</h3>
+                    <p>Détecteurs infrarouges haute sensibilité avec technologie anti-masquage pour une sécurité optimale.</p>
+                </div>
+            </div>
+
+            <div class="equipment-card">
+                <div class="equipment-badge">Communication</div>
+                <img src="https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&h=600&fit=crop" alt="Radios Professionnelles" class="equipment-image">
+                <div class="equipment-content">
+                    <h3>Radios Professionnelles</h3>
+                    <p>Système de communication radio longue portée crypté pour coordination optimale des équipes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <button class="btn btn-primary">Voir tous les équipements disponibles</button>
+        </div>
+    </section>
+
+    <!-- Agents Section -->
+    <section id="agents">
+        <h2 class="section-title">Notre Équipe d'Experts</h2>
+        <p class="section-subtitle">Des professionnels certifiés et expérimentés à votre service</p>
+        
+        <div class="agents-grid">
+            <div class="agent-card">
+                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=800&h=1000&fit=crop" alt="Marc Lefebvre" class="agent-image">
+                <div class="agent-info">
+                    <h3 class="agent-name">Marc Lefebvre</h3>
+                    <p class="agent-role">Chef d'équipe sécurité</p>
+                    <div class="certifications">
+                        <span class="cert-badge">CQP APS</span>
+                        <span class="cert-badge">SSIAP 2</span>
+                        <span class="cert-badge">Cynophile</span>
+                    </div>
+                </div>
+            </div>
+            <div class="agent-card">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop" alt="Alexandre Dupont" class="agent-image">
+                <div class="agent-info">
+                    <h3 class="agent-name">Alexandre Dupont</h3>
+                    <p class="agent-role">Agent de sécurité senior</p>
+                    <div class="certifications">
+                        <span class="cert-badge">CQP APS</span>
+                        <span class="cert-badge">Habilitation électrique</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="agent-card">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop" alt="Thomas Bernard" class="agent-image">
+                <div class="agent-info">
+                    <h3 class="agent-name">Thomas Bernard</h3>
+                    <p class="agent-role">Responsable surveillance</p>
+                    <div class="certifications">
+                        <span class="cert-badge">CQP APS</span>
+                        <span class="cert-badge">SSIAP 1</span>
+                        <span class="cert-badge">SST</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="testimonials-section">
+        <h2 class="section-title">Quelques témoignages</h2>
+        
+        <div class="testimonials-slider">
+            <div class="testimonials-track" id="testimonialsTrack">
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Service impeccable, agents très professionnels. Leur vigilance 24/7 nous apporte une tranquillité d'esprit totale."</p>
+                    <h4 class="testimonial-author">Marie Dubois</h4>
+                    <p class="testimonial-company">Centre Commercial Bellecour</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Depuis TAS, notre site est sécurisé 24/7. Rien à dire. Une équipe réactive et compétente."</p>
+                    <h4 class="testimonial-author">Jean-Paul Martin</h4>
+                    <p class="testimonial-company">Résidence Les Jardins</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Leur réactivité nous a sauvés plus d'une fois. Des professionnels à l'écoute qui comprennent nos besoins."</p>
+                    <h4 class="testimonial-author">Sophie Laurent</h4>
+                    <p class="testimonial-company">Entrepôt Logistique Lyon</p>
+                </div>
+
+                <div class="testimonial">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Une entreprise de confiance avec des agents formés et des équipements de pointe. Je recommande vivement."</p>
+                    <h4 class="testimonial-author">Pierre Durand</h4>
+                    <p class="testimonial-company">Technoparc Innovation</p>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <button class="slider-btn" onclick="previousTestimonial()">‹</button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-btn" onclick="nextTestimonial()">›</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="pourquoi">
+        <h2 class="section-title">Pourquoi choisir TAS ?</h2>
+        
+        <div class="why-grid">
+            <div class="why-card">
+                <div class="why-icon">🛡️</div>
+                <h3>Professionnalisme</h3>
+                <p>Agents formés et certifiés avec une expérience terrain reconnue</p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-icon">🕐</div>
+                <h3>Réactivité 24/7</h3>
+                <p>Intervention rapide à toute heure, tous les jours de l'année</p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-icon">📷</div>
+                <h3>Équipements Modernes</h3>
+                <p>Technologies de pointe pour une sécurité maximale et fiable</p>
+            </div>
+
+            <div class="why-card">
+                <div class="why-icon">🏆</div>
+                <h3>Expérience Vérifiée</h3>
+                <p>Plus de 15 ans d'expertise au service de vos besoins</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Prêt à sécuriser votre environnement ?</h2>
+        <p class="section-subtitle">Contactez-nous dès maintenant pour un devis gratuit</p>
+        
+        <div class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nom complet *</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Téléphone *</label>
+                    <input type="tel" id="phone" name="phone" placeholder="06 12 34 56 78" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="votre.email@exemple.fr" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Objet / Besoin *</label>
+                    <textarea id="message" name="message" placeholder="Décrivez votre besoin en sécurité..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div class="info-content">
+                        <h3>Téléphone</h3>
+                        <p>+33 1 23 45 67 89</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>contact@tas-securite.fr</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-content">
+                        <h3>Adresse</h3>
+                        <p>123 Avenue de la Sécurité<br>69000 Lyon, France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        TAS
+                    </div>
+                </h3>
+                <p>Temple de la Sécurité - Votre protection, notre mission</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#equipements">Équipements</a></li>
+                    <li><a href="#temoignages">Témoignages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Surveillance 24/7</a></li>
+                    <li><a href="#">Gardiennage</a></li>
+                    <li><a href="#">Systèmes d'alarme</a></li>
+                    <li><a href="#">Formation sécurité</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>+33 1 23 45 67 89</p>
+                <p>contact@tas-securite.fr</p>
+                <p>69000 Lyon, France</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 TAS - Temple de la Sécurité. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
