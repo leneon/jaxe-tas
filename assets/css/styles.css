@@ -570,3 +570,335 @@ nav .search-bar {
   text-decoration: underline;
   cursor: pointer;
 }
+footer {
+  background-color: #01123b;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+footer .compagny-info {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 2rem 4rem;
+  justify-content: space-around;
+  width: 100%;
+}
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #01123b;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+}
+.menu ul,
+.compagny-info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+.adresse {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+.adresse .icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+.adresse p {
+  font-size: 0.875rem;
+  color: white;
+  width: 200px;
+}
+
+/* Services Page Styling */
+.services-section {
+  margin: 10vh;
+  padding: 4rem 8rem;
+  background-color: #f5f5f5;
+  border-radius: 5vh;
+  color: #073cbc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+.services-section h2 {
+  font-size: 4em;
+}
+.services-grid {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 5vh;
+  justify-content: space-around;
+  align-items: space-around;
+  width: 100%;
+  height: 100vh;
+}
+.services-grid .panel {
+  width: 20vw;
+  height: 20vh;
+  text-align: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #073cbc;
+}
+.services-grid .panel h3 {
+  height: auto;
+  width: auto;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #ffffff;
+
+  padding: 0.5rem 0;
+}
+.services-grid .panel img {
+  width: 100%;
+  height: 7vh;
+  object-fit: contain;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.banner {
+  width: 100%;
+  padding: 5vh 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+.form-section {
+  margin: 10vh 0;
+  padding: 4rem 8rem;
+  background-color: #e8e8e8;
+  border-radius: 5vh;
+  color: #073cbc;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5vh;
+}
+.form-section .form-container {
+  width: 50%;
+}
+.form-section .form-container .cta {
+  margin-bottom: 2rem;
+}
+.form-section .form-container .cta h2 {
+  font-size: 3rem;
+  color: #ffffff;
+}
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form-section form label {
+  font-size: 1rem;
+  text-align: left;
+}
+.form-section form input,
+.form-section form select,
+.form-section form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.form-section form button {
+  width: 100%;
+  align-self: center;
+}
+.badge-cta {
+  padding: 1rem;
+  border-radius: 2vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100vh;
+}
+.badge-cta .cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 40vh;
+  width: 25vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 9, 31)),
+    url("../img/gadge-cta.png");
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem;
+  border-radius: 1vh;
+}
+.badge-cta .cta .logo {
+  width: auto;
+  height: 20vh;
+}
+.badge-cta .cta h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 1rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.badge-cta .cta-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 1rem;
+  width: 25vw;
+  height: 40vh;
+  background: linear-gradient(#073cbc, #007bff);
+  padding: 2rem;
+  border-radius: 1vh;
+}
+.badge-cta .cta-2 h4 {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 400;
+  line-height: 1.2;
+}
+.badge-cta .cta-2 p {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.badge-cta .cta-2 .btn-cta {
+  background-color: #ffffff;
+  color: #073cbc;
+  padding: 2rem 1rem;
+  border-radius: 1vh;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+.cta-section {
+  margin: 10vh 0;
+  padding: 4rem 8rem;
+  background: url(../img/banner-security-call.png);
+  background-size: cover;
+  height: 50vh;
+  color: white;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+}
+.cta-section h3 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  width: 50vw;
+  font-weight: 500;
+  line-height: 1;
+}
+.cta-section h3 span {
+  font-size: 3rem;
+  color: #ff4d00;
+}
+.cta-section p {
+  width: 50vw;
+  font-size: 1rem;
+}
+.cta-section .btn-cta {
+  background-color: #004bff;
+  color: #ffffff;
+  padding: 1.5rem 3rem;
+  border-radius: 1vh;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-section .btn-cta:hover {
+  background-color: #ff7f00;
+}
+
+/* styling contact page*/
+
+.contact-hero {
+  padding: 4rem 4rem;
+  text-align: center;
+  height: 70vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background: linear-gradient(#007bff50, #001f6e),
+    url(../img/banner-contact-page-full.png) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+}
+.contact-hero h2 {
+  font-size: 4rem;
+  color: #ffffff;
+  width: 30vw;
+  height: 20vh;
+  font-weight: 500;
+  line-height: 1;
+}
+.form-container .cta {
+  background-color: #073cbc;
+
+  padding: 2rem;
+  color: white;
+}
+.form-container .cta h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.form-group div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
