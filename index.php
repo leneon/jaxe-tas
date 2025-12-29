@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bienvenu à TAS votre agence de sécurité sur mesure</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
-  </head>
-  <body>
-    <header></header>
+<?php
+$pageTitle = "Bienvenu à TAS votre agence de sécurité sur mesure";
+$currentPage = "accueil";
+$basePath = "";
+include 'includes/head.php';
+include 'includes/navigation.php';
+?>
     <main>
-      <!-- Navigation -->
-      <nav>
-        <a href="#" class="logo">
-          <img class="logo-icon" src="assets/img/logo.png" alt="TAS Logo" />
-        </a>
-        <div class="nav-links">
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="devis.html">demander un devis</a></li>
-            <li><a href="about.html">A propos de nous </a></li>
-          </ul>
-          <a href="contact.html" class="btn-contact-head">Contactez nous</a>
-        </div>
-      </nav>
 
       <!-- Hero Section -->
       <section id="accueil" class="hero">
@@ -60,7 +41,7 @@
       <section class="experience">
         <div class="experience-text">
           <h2>
-            30 ans d’expérience <br />
+            30 ans d'expérience <br />
             et de présence sur tout le territoire
           </h2>
           <p>
@@ -85,7 +66,7 @@
               <p>30</p>
               <img src="assets/img/icons/+.png" alt="" />
             </div>
-            <p>Années d’activités au Togo</p>
+            <p>Années d'activités au Togo</p>
           </div>
           <div class="icon-animated">
             <img src="assets/img/icons/Vector (2).png" alt="" />
@@ -169,7 +150,7 @@
           <div class="service-panel">
             <h3>Agents de sécurité & gardiennage</h3>
             <p>
-              Présence, prévention, contrôle d’accès et protection des sites.
+              Présence, prévention, contrôle d'accès et protection des sites.
             </p>
           </div>
           <div class="service-panel">
@@ -225,64 +206,54 @@
           La meilleur entreprise de sécurité au togo
         </h2>
         <div class="slide-galerie">
-          <div
-            class="slide"
-            style="z-index: 1000; left: 0; border: solid 2px #000000"
-          >
-            <div class="slide-image-text">
-              <h4>30 ans d’expérience au Togo</h4>
+          <div class="slide slide-accordion" data-slide="0">
+            <div class="slide-content">
+              <h4>30 ans d'expérience au Togo</h4>
               <p>Une expertise rare dans le domaine de la sécurité privée.</p>
             </div>
-            <img src="assets/img/icons/30ans-bleu.png" alt="" />
+            <img src="assets/img/icons/30ans-bleu.png" alt="30 ans d'expérience" class="slide-icon" />
           </div>
-          <div
-            class="slide"
-            style="z-index: 999; left: 10%; border: solid 2px #000000"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="1">
+            <div class="slide-content">
+              <h4>Agents formés & certifiés</h4>
+              <p>Notre équipe bénéficie d'une formation continue et de certifications internationales.</p>
+            </div>
           </div>
-          <div
-            class="slide"
-            style="z-index: 998; left: 20%; border: solid 2px #333333"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="2">
+            <div class="slide-content">
+              <h4>Couverture nationale</h4>
+              <p>Présents sur tout le territoire togolais pour vous servir où que vous soyez.</p>
+            </div>
           </div>
-          <div
-            class="slide"
-            style="z-index: 997; left: 30%; border: solid 2px #666666"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="3">
+            <div class="slide-content">
+              <h4>Supervision 24/7</h4>
+              <p>Centre opérationnel ouvert jour et nuit pour une intervention rapide et efficace.</p>
+            </div>
           </div>
-          <div
-            class="slide"
-            style="z-index: 996; left: 40%; border: solid 2px #999999"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="4">
+            <div class="slide-content">
+              <h4>Équipements modernes</h4>
+              <p>Utilisation de la dernière technologie en matière de sécurité et de surveillance.</p>
+            </div>
           </div>
-          <div
-            class="slide"
-            style="z-index: 995; left: 50%; border: solid 2px #cccccc"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="5">
+            <div class="slide-content">
+              <h4>Solutions sur mesure</h4>
+              <p>Nous adaptons nos services à vos besoins spécifiques et votre budget.</p>
+            </div>
           </div>
-          <div
-            class="slide"
-            style="z-index: 994; left: 60%; border: solid 2px #eeeeee"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="6">
+            <div class="slide-content">
+              <h4>Rapports détaillés</h4>
+              <p>Suivi transparent avec rapports de supervision et recommandations régulières.</p>
+            </div>
           </div>
-          <div
-            class="slide"
-            style="z-index: 993; left: 70%; border: solid 2px #ffffff"
-          >
-            <h4>30 ans d’expérience au Togo</h4>
-            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          <div class="slide slide-accordion" data-slide="7">
+            <div class="slide-content">
+              <h4>Partenaires de confiance</h4>
+              <p>Travaillons avec les plus grandes entreprises et institutions du pays.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -339,8 +310,8 @@
           <img src="" alt="" />
           <h4>john Joe</h4>
           <p>
-             ”now use Lorem Ipsum as their default model text, and a search for
-            'lore”
+             "now use Lorem Ipsum as their default model text, and a search for
+            'lore"
           </p>
         </div>
         <div class="testimonial">
@@ -353,8 +324,8 @@
           </div>
           <h4>john Joe</h4>
           <p>
-             ”now use Lorem Ipsum as their default model text, and a search for
-            'lore”
+             "now use Lorem Ipsum as their default model text, and a search for
+            'lore"
           </p>
         </div>
         <div class="testimonial">
@@ -363,8 +334,8 @@
           <img src="" alt="" />
           <h4>john Joe</h4>
           <p>
-             ”now use Lorem Ipsum as their default model text, and a search for
-            'lore”
+             "now use Lorem Ipsum as their default model text, and a search for
+            'lore"
           </p>
         </div>
       </section>
@@ -384,60 +355,4 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="compagny-info">
-        <div class="adresses">
-          <div class="adresse">
-            <img class="icon" src="assets/img/icons/map.png" alt="" />
-            <p>105, Rue Dalagou Tokoin Wuiti Lomé, TOGO</p>
-          </div>
-          <div class="adresse">
-            <img class="icon" src="assets/img/icons/phone.png" alt="" />
-            <ul>
-              <li>+228 22615720</li>
-              <li>+228 70286303</li>
-              <li>+228 99423329</li>
-            </ul>
-          </div>
-          <div class="adresse">
-            <img class="icon" src="assets/img/icons/mail.png" alt="" />
-            <p>contact@tasinter.com</p>
-          </div>
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#formulaire">Demander un devis</a></li>
-            <li><a href="#about">A propos de nous</a></li>
-            <li><a href="#contact">Contactez-nous</a></li>
-          </ul>
-        </div>
-        <div class="horaires">
-          <h4>Horaires d'ouverture</h4>
-          <p>Lundi - Vendredi: 08:00 - 18:00</p>
-          <p>Samedi: 08:00 - 16:00</p>
-          <p>Dimanche: Fermé</p>
-        </div>
-        <div class="rdgp">
-          <h4>RGPD</h4>
-          <p>Politique de confidentialité</p>
-          <p>Conditions d'utilisation</p>
-          <p>Mentions légales</p>
-        </div>
-        <div class="30ans">
-          <img
-            src="assets/img/30-ans-badge.png"
-            class="hero-badge"
-            alt="30 ans de TAS"
-          />
-          <p>nous intervenons sur tout le territoire togolais</p>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>© 1993-2025 Togo Assistance Service. Tous droits réservés.</p>
-        <a href="">edit by JAXE-TECH</a>
-      </div>
-    </footer>
-  </body>
-</html>
+    <?php include 'includes/footer.php'; ?>

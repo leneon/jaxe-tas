@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Découvez nos services sur mesure pour votre sécurité</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
-  </head>
-  <body>
-    <header></header>
+<?php
+$pageTitle = "Services - TAS";
+$currentPage = "services";
+$basePath = "../";
+include '../includes/head.php';
+include '../includes/navigation.php';
+?>
     <main>
-      <!-- Navigation -->
-      <nav>
-        <a href="#" class="logo">
-          <img class="logo-icon" src="assets/img/logo.png" alt="TAS Logo" />
-        </a>
-        <div class="nav-links">
-          <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="devis.html">demander un devis</a></li>
-            <li><a href="about.html">A propos de nous </a></li>
-          </ul>
-          <a href="contact.html" class="btn-contact-head">Contactez nous</a>
-        </div>
-      </nav>
 
       <!-- Hero Section -->
       <section id="accueil" class="hero">
@@ -41,7 +22,7 @@
           </p>
           <img
             class="hero-badge"
-            src="assets/img/30-ans-badge.png"
+            src="<?php echo $basePath; ?>assets/img/30-ans-badge.png"
             alt="30 ans badge"
           />
         </div>
@@ -62,72 +43,74 @@
         <h2>Nos Services</h2>
         <div class="services-grid">
           <div class="panel">
+           <div class="panel-img">
             <img
-              src="assets/img/icons/security-agents.png"
+              src="<?php echo $basePath; ?>assets/img/icons/security-agents.png"
               alt="Agents de sécurité & gardiennage"
             />
+           </div>
             <h3>Agents de sécurité & gardiennage</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/event-security.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/event-security.png"
               alt="Sécurité événementielle"
-            />
+            /></div>
             <h3>Sécurité événementielle</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/tele-surveillance.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/tele-surveillance.png"
               alt="Télésurveillance & centre opérationnel 24/7"
-            />
+            /></div>
             <h3>Télésurveillance & centre opérationnel 24/7</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/camera-installation.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/camera-installation.png"
               alt="Installation de caméras & systèmes d'alarme"
-            />
+            /></div>
             <h3>Installation de caméras & systèmes d'alarme</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/motorized-patrols.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/motorized-patrols.png"
               alt="Ronde Motorisées & interventions rapides"
-            />
+            /></div>
             <h3>Ronde Motorisées & interventions rapides</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/enterprise-security.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/enterprise-security.png"
               alt="Sécurité pour entreprise, ONG & industries"
-            />
+            /></div>
             <h3>Sécurité pour entreprise, ONG & industries</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/teleassistance.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/teleassistance.png"
               alt="Téléassistance"
-            />
+            /></div>
             <h3>Téléassistance</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/bodyguard.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/bodyguard.png"
               alt="Garde du corps & sécurité rapprochée"
-            />
+            /></div>
             <h3>Garde du corps & sécurité rapprochée</h3>
           </div>
           <div class="panel">
-            <img
-              src="assets/img/icons/investigation.png"
+            <div class="panel-img"><img
+              src="<?php echo $basePath; ?>assets/img/icons/investigation.png"
               alt="Investigation & vérification"
-            />
+            /></div>
             <h3>Investigation & vérification</h3>
           </div>
         </div>
       </section>
       <section id="banner2026" class="banner">
-        <img src="assets/img/banner2026.png" alt="" />
+        <img src="<?php echo $basePath; ?>assets/img/banner2026.png" alt="" />
       </section>
       <section class="form-section" id="formulaire">
         <div class="form-container">
@@ -218,60 +201,4 @@
         <button class="btn-cta">Demander mon audit de sécurité gratuit</button>
       </section>
     </main>
-    <footer>
-      <div class="compagny-info">
-        <div class="adresses">
-          <div class="adresse">
-            <img class="icon" src="assets/img/icons/map.png" alt="" />
-            <p>105, Rue Dalagou Tokoin Wuiti Lomé, TOGO</p>
-          </div>
-          <div class="adresse">
-            <img class="icon" src="assets/img/icons/phone.png" alt="" />
-            <ul>
-              <li>+228 22615720</li>
-              <li>+228 70286303</li>
-              <li>+228 99423329</li>
-            </ul>
-          </div>
-          <div class="adresse">
-            <img class="icon" src="assets/img/icons/mail.png" alt="" />
-            <p>contact@tasinter.com</p>
-          </div>
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#formulaire">Demander un devis</a></li>
-            <li><a href="#about">A propos de nous</a></li>
-            <li><a href="#contact">Contactez-nous</a></li>
-          </ul>
-        </div>
-        <div class="horaires">
-          <h4>Horaires d'ouverture</h4>
-          <p>Lundi - Vendredi: 08:00 - 18:00</p>
-          <p>Samedi: 08:00 - 16:00</p>
-          <p>Dimanche: Fermé</p>
-        </div>
-        <div class="rdgp">
-          <h4>RGPD</h4>
-          <p>Politique de confidentialité</p>
-          <p>Conditions d'utilisation</p>
-          <p>Mentions légales</p>
-        </div>
-        <div class="30ans">
-          <img
-            src="assets/img/30-ans-badge.png"
-            class="hero-badge"
-            alt="30 ans de TAS"
-          />
-          <p>nous intervenons sur tout le territoire togolais</p>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>© 1993-2025 Togo Assistance Service. Tous droits réservés.</p>
-        <a href="">edit by JAXE-TECH</a>
-      </div>
-    </footer>
-  </body>
-</html>
+    <?php include '../includes/footer.php'; ?>

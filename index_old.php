@@ -1,0 +1,368 @@
+<?php
+$pageTitle = "Bienvenu à TAS votre agence de sécurité sur mesure";
+$currentPage = "accueil";
+$basePath = "";
+include 'includes/head.php';
+include 'includes/navigation.php';
+?>
+    <main>
+
+      <!-- Hero Section -->
+      <section id="accueil" class="hero">
+        <div class="hero-container">
+          <h1>
+            <span>Togo Assistance Service </span> 30 ans de sécurité, de
+            gardiennage et de protection sur tout le Togo
+          </h1>
+          <p>
+            Depuis trois décennies, TAS protège les entreprises les résidences,
+            les sites industriels et les institutions grâce à des solutions de
+            sécurité professionnelles, surveillées en continu et adaptées à
+            chaque besoin.
+          </p>
+          <img
+            class="hero-badge"
+            src="assets/img/30-ans-badge.png"
+            alt="30 ans badge"
+          />
+        </div>
+        <div class="hero-cta">
+          <ul>
+            <li>INTERVENTION 24/7</li>
+            <li>COUVERTURE NATIONALE</li>
+            <li>AGENTS FORMÉS ET CERTIFIÉS</li>
+          </ul>
+          <button class="btn-cta yellow">
+            Demander une intervention immédiate
+          </button>
+          <button class="btn-cta">Demander un audit sécurisé gratuit</button>
+        </div>
+      </section>
+      <section class="experience">
+        <div class="experience-text">
+          <h2>
+            30 ans d’expérience <br />
+            et de présence sur tout le territoire
+          </h2>
+          <p>
+            Depuis plus de 30 ans, TAS accompagne entreprises, résidences
+            privées, organisations internationales et sites industriels dans la
+            mise en place de dispositifs de sécurité fiables, contrôlés et
+            certifiés. Notre expérience terrain, alliée à nos protocoles de
+            contrôle et à la supervision continue par notre centre opérationnel,
+            garantit une protection optimale, de jour comme de nuit.
+          </p>
+        </div>
+        <div class="experience-icons">
+          <div class="icon-animated">
+            <div class="icon">
+              <p>10</p>
+              <img src="assets/img/icons/+.png" alt="" />
+            </div>
+            <p>Entreprises, résidences et institutions sécurisées</p>
+          </div>
+          <div class="icon-animated">
+            <div class="icon">
+              <p>30</p>
+              <img src="assets/img/icons/+.png" alt="" />
+            </div>
+            <p>Années d’activités au Togo</p>
+          </div>
+          <div class="icon-animated">
+            <img src="assets/img/icons/Vector (2).png" alt="" />
+
+            <p>Contrôles quotidiens et inopinés</p>
+          </div>
+          <div class="icon-animated">
+            <img src="assets/img/icons/Vector (3).png" alt="" />
+            <p>Intervention sur tout le territoire togolais</p>
+          </div>
+        </div>
+        <div class="coverd-zone">
+          <div>
+            <h3>Nos Zones de couvertures</h3>
+            <img
+              src="assets/img/togo-card.png"
+              alt="Carte des zones de couverture de TAS"
+            />
+          </div>
+          <div>
+            <h4>
+              <span>Nos clients</span> <br />
+              ils nous font confiance
+            </h4>
+            <div class="client-liste">
+              <img
+                src="assets/img/parteners-logos/ceet.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/cie.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/eagb.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/edg.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/ewsa.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/fdeb.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/jsrm.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/mebf.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/senelec.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/sbee.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/sonelec.png"
+                alt="Logo de clients de TAS"
+              />
+              <img
+                src="assets/img/parteners-logos/sonabel.png"
+                alt="Logo de clients de TAS"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <h2>Nos Services</h2>
+        <div class="service-panels">
+          <div class="service-panel">
+            <h3>Agents de sécurité & gardiennage</h3>
+            <p>
+              Présence, prévention, contrôle d’accès et protection des sites.
+            </p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Sécurité événementielle</h3>
+            <p>Sécurisation complète de vos événements privés ou publics.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Télésurveillance & centre opérationnel 24/7</h3>
+            <p>Surveillance en temps réel, alertes et interventions rapides.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Installation de caméras & systèmes d'alarme</h3>
+            <p>Diagnostic, installation, maintenance et suivi.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Ronde Motorisées & interventions rapides</h3>
+            <p>Patrouilles et descente sur alerte ou suspicion.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Sécurité pour entreprise, ONG & industries</h3>
+            <p>Protection des infrastructures sensibles et des accès.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Téléassistance</h3>
+            <p>Alert imédat et protection des personnes isolées.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Garde du corps & sécurité rapprochée</h3>
+            <p>Protection VIP pour dirigeants et personnalités.</p>
+          </div>
+          <div class="service-panel">
+            <img src="" alt="" />
+            <h3>Investigation & vérification</h3>
+            <p>Enquêtes privées vérification d'antécédents et fraudes.</p>
+          </div>
+        </div>
+      </section>
+      <section class="why">
+        <div class="cta-services">
+          <img src="assets/img/icons/Vector (8).png" alt="" />
+          <h3>Découvrir tous nos services</h3>
+        </div>
+        <h2>
+          <span>Pourquoi faire confiance à TAS ?</span>
+          <br />
+          La meilleur entreprise de sécurité au togo
+        </h2>
+        <div class="slide-galerie">
+          <div
+            class="slide"
+            style="z-index: 1000; left: 0; border: solid 2px #000000"
+          >
+            <div class="slide-image-text">
+              <h4>30 ans d’expérience au Togo</h4>
+              <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+            </div>
+            <img src="assets/img/icons/30ans-bleu.png" alt="" />
+          </div>
+          <div
+            class="slide"
+            style="z-index: 999; left: 10%; border: solid 2px #000000"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+          <div
+            class="slide"
+            style="z-index: 998; left: 20%; border: solid 2px #333333"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+          <div
+            class="slide"
+            style="z-index: 997; left: 30%; border: solid 2px #666666"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+          <div
+            class="slide"
+            style="z-index: 996; left: 40%; border: solid 2px #999999"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+          <div
+            class="slide"
+            style="z-index: 995; left: 50%; border: solid 2px #cccccc"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+          <div
+            class="slide"
+            style="z-index: 994; left: 60%; border: solid 2px #eeeeee"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+          <div
+            class="slide"
+            style="z-index: 993; left: 70%; border: solid 2px #ffffff"
+          >
+            <h4>30 ans d’expérience au Togo</h4>
+            <p>Une expertise rare dans le domaine de la sécurité privée.</p>
+          </div>
+        </div>
+      </section>
+      <section class="audit-cta">
+        <div class="audit-text">
+          <div>
+            <h2>
+              Recevez <br />
+              un audit complet de votre sécurité
+            </h2>
+            <p>
+              Nos experts effectuent une analyse sur site (résidence ou
+              entreprise) et vous remettent un rapport PDF avec risques, failles
+              et recommandations immédiates.
+            </p>
+          </div>
+          <div class="text"><p>Gratuit</p></div>
+        </div>
+        <div class="audit-btns">
+          <button class="btn-cta">Demander mon audit gratuit</button>
+          <button class="btn-cta white">
+            Être rappelé dans les 20 minutes
+          </button>
+          <img src="assets/img/icons/call.png" alt="" />
+          <img src="assets/img/icons/whatsapp-white.png" alt="" />
+        </div>
+      </section>
+      <section class="actions">
+        <h2>TAS en actions</h2>
+        <p>Choisissez la sécurité, choisissez TAS</p>
+        <div class="bento">
+          <div class="bento-img" style="grid-area: box-1">
+            <img src="assets/img/Rectangle 5.png" alt="" />
+          </div>
+          <div class="bento-img" style="grid-area: box-2">
+            <img src="assets/img/Rectangle 7.png" alt="" />
+          </div>
+          <div class="bento-img" style="grid-area: box-3">
+            <img src="assets/img/Rectangle 8.png" alt="" />
+          </div>
+          <div class="bento-img" style="grid-area: box-4">
+            <img src="assets/img/Rectangle 9.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="testimonials-text">
+          <img src="assets/img/icons/quotation.png" alt="" />
+          <h2>Ils nous font confiance</h2>
+        </div>
+        <div class="testimonial">
+          <img src="" alt="" />
+
+          <img src="" alt="" />
+          <h4>john Joe</h4>
+          <p>
+             ”now use Lorem Ipsum as their default model text, and a search for
+            'lore”
+          </p>
+        </div>
+        <div class="testimonial">
+          <div class="logo">
+            <img src="assets/img/icons/Frame.png" style="height: 40px" alt="" />
+          </div>
+
+          <div class="icon">
+            <img src="assets/img/icons/stars.png" style="height: 40px" alt="" />
+          </div>
+          <h4>john Joe</h4>
+          <p>
+             ”now use Lorem Ipsum as their default model text, and a search for
+            'lore”
+          </p>
+        </div>
+        <div class="testimonial">
+          <img src="" alt="" />
+
+          <img src="" alt="" />
+          <h4>john Joe</h4>
+          <p>
+             ”now use Lorem Ipsum as their default model text, and a search for
+            'lore”
+          </p>
+        </div>
+      </section>
+      <section class="safety-tips">
+        <h2>Derniers conseils pour votre sécurité</h2>
+        <p>Avec TAS Sécurité</p>
+        <div class="slides">
+          <div id="article-1" class="slide">
+            <h4>Comment sécuriser son site industriel ?</h4>
+          </div>
+          <div id="article-2" class="slide">
+            <h4>Sécurité événementielle : les 5 erreurs fatales</h4>
+          </div>
+          <div id="article-3" class="slide">
+            <h4>Comment sécuriser son site industriel ?</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+    <?php include 'includes/footer.php'; ?>
