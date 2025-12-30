@@ -173,3 +173,46 @@ function showNotification(message, type = "info") {
     setTimeout(() => notification.remove(), 300);
   }, 3000);
 }
+
+// ===== BURGER MENU =====
+document.addEventListener("DOMContentLoaded", function () {
+  const burgerMenu = document.getElementById("burgerMenu");
+  const closeMenu = document.getElementById("closeMenu");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (burgerMenu) {
+    // Toggle menu on burger click
+    burgerMenu.addEventListener("click", function () {
+      burgerMenu.classList.toggle("active");
+      navLinks.classList.toggle("active");
+    });
+
+    // Close menu on close button click
+    if (closeMenu) {
+      closeMenu.addEventListener("click", function () {
+        burgerMenu.classList.remove("active");
+        navLinks.classList.remove("active");
+      });
+    }
+
+    // Close menu when a link is clicked
+    const navItems = navLinks.querySelectorAll("a");
+    navItems.forEach((item) => {
+      item.addEventListener("click", function () {
+        burgerMenu.classList.remove("active");
+        navLinks.classList.remove("active");
+      });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener("click", function (event) {
+      const isClickInsideNav = navLinks.contains(event.target);
+      const isClickOnBurger = burgerMenu.contains(event.target);
+
+      if (!isClickInsideNav && !isClickOnBurger) {
+        burgerMenu.classList.remove("active");
+        navLinks.classList.remove("active");
+      }
+    });
+  }
+});
