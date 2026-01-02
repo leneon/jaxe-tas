@@ -2034,8 +2034,7 @@ footer .compagny-info {
 }
 
 nav li a.active {
-  background-color: #073cbc;
-  color: white;
+  font-weight: 600;
 }
 
 .notification {

@@ -1,5 +1,26 @@
 // ===== CAROUSEL SLIDE GALERIE (ACCORDION) =====
 document.addEventListener("DOMContentLoaded", function () {
+  // Make nav li clickable to trigger inner link
+  const navItems = document.querySelectorAll("nav ul li");
+  navItems.forEach((item) => {
+    item.style.cursor = "pointer";
+    item.addEventListener("click", function (e) {
+      // Only trigger if the click is on the li, not on the link itself
+      if (e.target.tagName !== "A") {
+        const link = this.querySelector("a");
+        if (link) {
+          link.click();
+        }
+      }
+    });
+
+    // Apply active class to li if it contains an active link
+    const activeLink = item.querySelector("a.active");
+    if (activeLink) {
+      item.classList.add("active-li");
+    }
+  });
+
   initServiceCarousel();
 });
 
