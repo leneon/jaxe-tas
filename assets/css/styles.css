@@ -2196,3 +2196,130 @@ nav li a.active {
     box-shadow: 0 2px 8px rgba(7, 60, 188, 0.3);
   }
 }
+
+/* about page styling */
+.hero-about {
+  padding: 4rem 4rem;
+  text-align: center;
+  height: 70vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background: url(../img/apropos.png) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+}
+.hero-about h1 {
+  font-size: 4rem;
+  color: #ffffff;
+  width: 30vw;
+  height: 20vh;
+  font-weight: 500;
+  line-height: 1;
+}
+.info-about {
+  padding: 4rem 8rem;
+  text-align: center;
+  background-color: #e8e8e8;
+  margin: 10vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.securite {
+  text-align: center;
+  background: linear-gradient(#042f99, #011033);
+  border-radius: 2vh;
+  margin: 10vh 0;
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  justify-content: space-between;
+  padding: 10vh 20vw;
+  color: white;
+}
+.texte-securite {
+  width: 50%;
+  text-align: justify;
+}
+.texte-about {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vh 20vw;
+  color: #00206e;
+  text-align: justify;
+}
+.texte-about p {
+  width: 45%;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.image-securite {
+  height: 50vh;
+}
+.image-securite img {
+  width: auto;
+  height: 100%;
+  border-radius: 2vh;
+  object-fit: contain;
+}
+.que-faisons-nous {
+  margin: 10vh 0;
+  padding: 4rem 8rem;
+  border-radius: 5vh;
+  color: #073cbc;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  gap: 5vh;
+}
+.que-faisons-nous h2 {
+  text-align: left;
+}
+.que-faisons-nous h2 span {
+  font-size: 3em;
+}
+.img-que-faisons-nous {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+.img-que-faisons-nous img {
+  width: 100%;
+  height: auto;
+  border-radius: 2vh;
+  object-fit: cover;
+}
+.expertise-vision {
+  margin: 10vh 0;
+  padding: 4rem 8rem;
+  border-radius: 5vh;
+  color: #073cbc;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  justify-content: space-between;
+  align-items: start;
+  gap: 5vh;
+}
+.expertise-vision .expertise,
+.expertise-vision .vision {
+  width: 45%;
+}
+.expertise-vision h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin: 5vh 0;
+}
