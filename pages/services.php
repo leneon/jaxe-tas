@@ -18,7 +18,7 @@ include '../includes/navigation.php';
                     <img src="<?php echo $basePath; ?>assets/img/icons/security-agents.png"
                         alt="Agents de sécurité & gardiennage" />
                 </div>
-                <h3>Agents de sécurité & gardiennage</h3>
+                <h3><a href="services/service1.php">Agents de sécurité & gardiennage</a></h3>
             </div>
             <div class="panel">
                 <div class="panel-img"><img src="<?php echo $basePath; ?>assets/img/icons/event-security.png"

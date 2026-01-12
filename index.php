@@ -8,7 +8,7 @@ include 'includes/navigation.php';
 <main>
 
     <!-- Hero Section -->
-    <?php include '../includes/hero.php'; ?>
+    <?php include 'includes/hero.php'; ?>
     <section class="experience">
         <div class="experience-text">
             <h2>
